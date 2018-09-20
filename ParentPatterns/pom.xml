@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.pattern</groupId>
+    <artifactId>parent-pattern</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>Maven parent-pattern Module</name>
+
+    <modules>
+        <module>BehChainResponsibilityPattern</module>
+        <module>BehCommandPattern</module>
+		<module>BehInterpreterPattern</module>
+		<module>BehIteratorPattern</module>
+		<module>BehMediatorPattern</module>
+		<module>BehMementoPattern</module>
+		<module>BehObserverPattern</module>
+		<module>BehStatePattern</module>
+		<module>BehStrategyPattern</module>
+		<module>BehTemplateMethodPattern</module>
+		<module>BehVisitorPattern</module>
+		<module>CreAbstractFactoryPattern</module>
+		<module>CreBuilderPattern</module>
+		<module>CreFactoryMethodPattern</module>
+		<module>CrePrototypePattern</module>
+		<module>CreSingletonPattern</module>
+		<module>StrucAdapterPattern</module>
+		<module>StrucBridgePattern</module>
+		<module>StrucCompositePattern</module>
+		<module>StrucDecoratorPattern</module>
+		<module>StrucFacadePattern</module>
+		<module>StrucFlyweightPattern</module>
+		<module>StrucProxyPattern</module>
+    </modules>
+
+</project>
