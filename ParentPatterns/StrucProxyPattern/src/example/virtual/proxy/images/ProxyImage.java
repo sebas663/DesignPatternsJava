@@ -1,4 +1,4 @@
-package example.proxy.images;
+package example.virtual.proxy.images;
 
 /**
  * Created by luisburgos on 21/09/15.
@@ -13,6 +13,7 @@ public class ProxyImage implements Image {
     }
 
     @Override
+ // create the Image Object only when the image is required to be shown and is null.
     public void display() {
         if(realImage == null){
             realImage = new RealImage(imageFileName);
